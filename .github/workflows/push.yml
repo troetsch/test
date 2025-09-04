@@ -3,7 +3,7 @@ name: deploy
 jobs:
   deploy:
     name: deploy to dockerhub
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: build and push to docker
